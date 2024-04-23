@@ -1,0 +1,36 @@
+public class Jogador {
+    private String nome = "";
+    private int voto = incrementaUmVoto();
+
+
+    public Jogador(int votos, String Nome) {
+        incrementaUmVoto();
+        nome =  Nome;
+        voto = votos;
+    }
+
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getVotos() {
+        return voto;
+    }
+
+    public void setVotos(int votos) {
+        this.voto = voto;
+    }
+
+    public int incrementaUmVoto() {
+        this.voto = getVotos() + 1;
+        return voto;
+    }
+
+    }
+
+
