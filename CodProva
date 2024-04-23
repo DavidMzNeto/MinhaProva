@@ -16,6 +16,7 @@ public class Main {
             System.out.println(" Para consultar o nome dos participantes digite 1");
             System.out.println("Para votar digite 2");
             System.out.println("Para sair digite 0");
+            System.out.println("Digite a opção escolhida");
             opcao = scn.nextInt();
             switch (opcao) {
                 case 1:
